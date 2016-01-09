@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+<div ng-controller="mvc1Controller">
+    <person like="fight()">大圣</person>
+</div>
+<div ng-controller="mvc2Controller">
+    <person like="eat()" name="bajie">八戒</person>
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+    app.controller('mvc1Controller',function($scope){
+        $scope.out = function(){
+            alert('大圣归来');
+        }
+        $scope.fight = function(){
+            alert('大圣战斗');
+        }
+    });
+    app.controller('mvc2Controller',function($scope){
+        $scope.out = function(){
+            alert('大圣归来');
+        }
+        $scope.eat = function(){
+            alert('八戒净坛');
+        }
+    });
+    app.directive('person',function(){
+        return {
+            restrict:'E',
+            //作用域 元素 属性
+            link:function(sss,ele,attrs){
+                ele.bind('click',function(){
+                    //$scope.out();//直接调用
+                    sss.$apply(attrs.like);
+                });
+            }
+        }
+    });
+</script>
+</html>

@@ -1,0 +1,54 @@
+{
+  "data": {
+    "user": [
+      {
+        "first_name": "zf",
+        "last_name": "px",
+        "createdAt": "2015-07-25T03:03:07.787Z",
+        "updatedAt": "2015-07-25T03:03:07.787Z",
+        "id": 1
+      },
+      {
+        "first_name": "杨",
+        "last_name": "过",
+        "createdAt": "2015-07-25T03:05:30.055Z",
+        "updatedAt": "2015-07-25T03:05:30.055Z",
+        "id": 2
+      },
+      {
+        "first_name": "杨",
+        "last_name": "过",
+        "createdAt": "2015-07-25T03:06:40.904Z",
+        "updatedAt": "2015-07-25T03:06:40.904Z",
+        "id": 3
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "first_name": {
+        "type": "string"
+      },
+      "last_name": {
+        "type": "string"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {
+      "id": 3
+    }
+  }
+}

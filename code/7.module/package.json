@@ -1,0 +1,9 @@
+{
+  "name": "mytest",
+  "description": "only for test.",
+  "version": "2.7.0",
+  "license": "MIT",
+  "author": {
+    "name": "lihongji"
+  }
+}

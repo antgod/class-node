@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+<div>
+    <girl flower ></girl>
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+
+    app.directive('girl',function(){
+        return {
+            restrict:'E',
+            template:'<div>女神</div>',
+            controller:function($scope){
+                $scope.gift = [];
+                this.receive = function(present){
+                    $scope.gift.push(present);
+                }
+            },
+            link:function(scope,element,attrs){
+                element.bind('click',function(){
+                    alert(scope.gift);
+                });
+            }
+        }
+    });
+
+    app.directive('flower',function(){
+        return {
+            require:'^girl',
+            restrict:'A',
+            link:function(scope,element,attrs,girlCtrl){
+                girlCtrl.receive('flower');
+            }
+        }
+    });
+
+    app.directive('formalin',function(){
+        return {
+            require:'^girl',
+            restrict:'A',
+            link:function(scope,element,attrs,girlCtrl){
+                girlCtrl.receive('formalin');
+            }
+        }
+    });
+</script>
+</html>

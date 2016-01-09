@@ -1,0 +1,8 @@
+{
+    name: "珠峰培训",
+    "lession":[
+        "node":10,
+        "javascript":14,
+        "mobile":2
+    ]
+}

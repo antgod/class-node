@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <style>
+        .panel{margin: 70px;}
+    </style>
+</head>
+<body>
+    <div ng-controller="GrandFatherController">
+        余额：{{balance}}<button>加钱</button>
+        <div ng-controller="FatherController">
+            余额：{{balance}}<button ng-click="addMoney()">加钱</button>
+            <div ng-controller="MeController">
+                余额：{{balance}}<button>加钱</button>
+            </div>
+        </div>
+    </div>
+
+    <div ng-controller="LhjController">
+        余额：{{balance}}<button>加钱</button>
+    </div>
+</body>
+<script>
+    var app = angular.module('mvcModule', []);//定会引起一个模块
+    //定义一个控制器 $scope就是这个控制器对应的视图模型
+    app.controller('GrandFatherController', function ($scope) {
+        $scope.balance=300;
+        $scope.$on('addMoney1',function(event,money){
+            $scope.balance+=money;
+        });
+    });
+    app.controller('FatherController', function ($scope,$rootScope) {
+        $scope.balance=20000;
+        var money=100;
+        $scope.addMoney=function(){
+            $scope.balance-=3*money;
+            $scope.$emit('addMoney1',money);
+            $scope.$broadcast('addMoney',money);
+            $rootScope.$broadcast('addMoney2',money);
+        };
+    });
+    app.controller('MeController', function ($scope) {
+        $scope.balance=100;
+        $scope.$on('addMoney',function(event,money){
+            $scope.balance+=money;
+        });
+    });
+
+    app.controller('LhjController', function ($scope,$rootScope) {
+        $scope.balance=100;
+        $rootScope.$on('addMoney2',function(event,money){
+            $scope.balance+=money;
+        });
+    });
+
+</script>
+</html>

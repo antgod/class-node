@@ -1,0 +1,11 @@
+包发布
+1.新建package
+2.node_module
+3.命令行npm publish
+4.npm search
+5.npm intasll xxx -g全局安装路径
+6.npm root -g 查看路径
+7.npm list 查看当前文件夹下的包
+8.npm unistall xxx写在包
+9.npm update 更新包
+10.npm install supervisor

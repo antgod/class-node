@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Promise的使用</title>
+</head>
+<body>
+<script>
+    var get = function(url){
+        var promise = new Promise(function(resolve, reject){
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.send(null);
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState === 4) {
+                    if(xhr.status === 200) {
+                        resolve(xhr.responseText);
+                    } else {
+                        reject(xhr);
+                    }
+                }
+            }
+        });
+        return promise;
+    };
+    var wait = function(time){
+        return new Promise(function(resolve, reject) {
+            //做点什么异步的事情
+            //结束的时候调用 resolve，比如：
+            setTimeout(function(){
+                resolve(); //这里才是真的返回
+            },time)
+        })
+    };
+    get('http://localhost:3000/data1')
+        .then(function(data){
+            console.log('current',data);
+            get('http://localhost:3000/data2');
+            return JSON.parse(data);
+        }).then(function(data){
+            console.log('next', data);
+        }).then(function(promise){
+            console.log(promise)
+        }).catch(function(){
+    });
+    console.log('hello');
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body id="body1" >
+<div id="div1" ng-controller="mvcController">
+    <input ng-model="say"/>
+    <button ng-click="clickMe()">点我</button>
+    <span>{{say}}</span>
+</div>
+
+<script>
+
+var sc = document.createElement('script');
+sc.src ='bower_components/angular/angular.js';
+sc.type='text/javascript';
+document.body.appendChild(sc);
+var sc2 = document.createElement('script');
+sc2.src ='load.js';
+sc2.type='text/javascript';
+document.body.appendChild(sc2);
+</script>
+</body>
+</html>

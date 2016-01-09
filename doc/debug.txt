@@ -1,0 +1,5 @@
+命令行：view-tool window-version control
+
+console.trace();
+
+console.assert(2==1);

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+大师兄<person></person><br/>
+二师兄<person></person><br/>
+三师弟<person></person>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+    //定义一个控制器 $scope就是这个控制器对应的视图模型
+    var scopes = [];
+    app.directive('person',function(){
+        return {
+            template:'<span><input ng-model="username"></span>',
+            scope:{},//创建独立scope,指令之间可以相互独立
+            link:function(scope){
+                scopes.push(scope);
+                console.log(scope);
+            }
+        }
+    });
+    setTimeout(function(){
+        alert(scopes[0] === scopes[1]);
+    },3000);
+</script>
+</html>

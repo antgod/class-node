@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html >
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body ng-app="mvcModule">
+大家零钱的总额 {{balance1+balance2+balance3}}
+<div ng-controller="damaoController">
+   <p>{{parent}}</p>
+   <p>{{name}}</p>
+    <p>{{balance1}}</p>
+    <p>{{age}}</p>
+</div>
+<div ng-controller="ermaoController">
+    <p>{{parent}}</p>
+    <p>{{name}}</p>
+    <p>{{age}}</p>
+    <p>{{balance2}}</p>
+    <p id="home"></p>
+</div>
+<div ng-controller="sanmaoController">
+    <p>{{parent}}</p>
+    <p>{{name}}</p>
+    <p>{{age}}</p>
+    <p>{{balance3}}</p>
+    <p>{{married}}</p>
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+    //定义一个控制器 $scope就是这个控制器对应的视图模型
+    app.controller('damaoController',function($rootScope,$scope){
+        $scope.name = 'damao';
+        $scope.age = 7;
+        $rootScope.balance1 = 99.99;
+        $rootScope.parent = '王老毛';
+    });
+    app.controller('ermaoController',function($rootScope,$scope){
+        console.log($scope);
+        console.log($scope.$parent);
+        $scope.name = 'ermao';
+        $rootScope.balance2 = 99.99;
+        $scope.age = 7;
+        //console.log($scope.$parent);
+    });
+    app.controller('sanmaoController',function($rootScope,$scope){
+        $scope.name = 'sanmao';
+        $scope.married = true;
+        $rootScope.balance3 = 99.99;
+        $scope.age = 3;
+    });
+</script>
+</html>
+<p>111{{name}}</p>

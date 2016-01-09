@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+<div ng-controller="mvcController">
+    <ng-hello>zfpx</ng-hello>
+    <div ng-hello></div>
+    <!-- directive:ng-hello -->
+    <div class="ng-hello"></div>
+
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+    //加载完成所有的模块之后此方法执行一次
+    app.run(function($templateCache){
+        $templateCache.put('hello','temp/demo.html');
+    });
+    //定义一个控制器 $scope就是这个控制器对应的视图模型
+    app.controller('mvcController',function($scope){
+
+    });
+    app.directive('ngHello',function($templateCache){
+        return {
+
+            /**
+             * E element 元素
+             * A Attribute 属性
+             * C class 样式类
+             * M comment注释
+             */
+            restrict:'EACM',
+            transclude:true,
+            //template:'<div>hello world</div>',
+            //template:'<div>hello <span ng-transclude></span></div>',
+            templateUrl:$templateCache.get('hello'),
+            replace:false
+        }
+    });
+
+    app.directive('ngHello2',function($templateCache){
+        return {
+
+            restrict:'EACM',
+            transclude:true,
+            //template:'<div>hello world</div>',
+            template:'<div>hello <span ng-transclude></span></div>',
+            //templateUrl:'temp/demo.html',
+            replace:false
+        }
+    });
+</script>
+</html>

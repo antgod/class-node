@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+</head>
+<body>
+<div ng-controller="MyCtrl">
+    {{1437658126187|date}}<br/>
+    {{1437658126187|date:"yyyy-MM--dd hh:mm:ss"}}<br/>
+    {{99999999999|currency:"Y"}}<br/>
+    {{"12345"|number}}<br/>
+    {{"12345.3333"|number:4}}<br/>
+    {{{name:'zfpx'}|json}}<br/>
+    {{'abcde'|uppercase}}<br/>
+    {{'ABCDE'|lowercase}}<br/>
+    {{999999| limitTo:5}}
+    <ul ng-repeat="name in names|limitTo:4|orderBy:ob">
+        <li>{{name}}</li>
+    </ul>
+    {{'hello'|strong:'zfpx'}}
+</div>
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定义一个模块
+    app.controller('MyCtrl',function($scope){
+        $scope.names = [{age:'3'},{age:'4'},{age:'2'},{age:'1'}];
+        $scope.ob = 'age';
+    });
+    app.filter('strong',function(){
+        return function(item,tail){
+            return "<b>"+item+'</b>&nbsp;'+tail;
+        }
+    });
+</script>
+</html>

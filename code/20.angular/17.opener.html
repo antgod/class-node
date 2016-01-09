@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="mvcModule">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="bower_components/angular/angular.js"></script>
+    <style>
+        .title{
+            width:100px;
+            height:30px;
+            border:solid red 1px;
+        }
+        .content{
+            width:100px;
+            height:100px;
+            border:solid blue 1px;
+        }
+    </style>
+</head>
+<body>
+<div ng-controller="openerCtrl">
+    <opener></opener>
+</div>
+<div ng-controller="opener2Ctrl">
+    <opener></opener>
+</div>
+</body>
+<script>
+    var app = angular.module('mvcModule',[]);//定会引起一个模块
+    app.controller('openerCtrl',function($scope){
+        $scope.title = '标题';
+        $scope.content = '内容';
+        $scope.change = function(){
+            $scope.show = !$scope.show;
+        }
+    });
+
+    app.controller('opener2Ctrl',function($scope){
+        $scope.title = '标题2';
+        $scope.content = '内容2';
+        $scope.change = function(){
+            $scope.show = !$scope.show;
+        }
+    });
+    app.directive('opener',function(){
+        return {
+            replace:true,
+            templateUrl:'open.html',
+            link:function(scope,element,attrs){
+                console.log('link');
+            }
+        }
+    });
+
+</script>
+</html>

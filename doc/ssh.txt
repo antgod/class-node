@@ -1,0 +1,26 @@
+1.123.57.143.189   端口22
+192.168.1.157
+用户名：
+root
+密码：
+zfpx1701
+
+
+2.nslookup zhufengpeixun.cn 查看IP
+
+3.telnet 112.125.158.152 80
+
+4.输入：GET /NodeJSpeixun/2015-06-19/332.html HTTP/1.1
+  Host: zhufengpeixun.cn
+
+
+#后台遇到问题
+1.如何把服务器上的文件返回给客户端？fs
+2.如何定位文件？处理路径？path
+3.如何把图片等内容返回给客户端进行正确解析？buffer
+4.发送时候控制速度？stream
+5.如何记录日志？console
+6.如何传输数据？udp tcp
+7.如何对数据进行压缩？gzip
+8.如何对数据进行加密？ crypto
+9.如何利用多核CPU？如何区服务器信息？
