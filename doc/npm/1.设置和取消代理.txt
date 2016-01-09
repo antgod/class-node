@@ -3,6 +3,7 @@
 http://npm.hacknodejs.com/
 http://registry.npmjs.vitecho.com/
 https://registry.npm.taobao.org
+http://registry.cnpmjs.org
 
 
 2.永久使用镜像命令：
@@ -12,4 +13,4 @@ npm config set registry https://registry.npm.taobao.org
 
 3.查看npm
 信息查看：npm info underscore
-镜像查看：
+镜像查看：npm config list
