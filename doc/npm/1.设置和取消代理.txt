@@ -1,0 +1,15 @@
+1.NPM国内镜像
+
+http://npm.hacknodejs.com/
+http://registry.npmjs.vitecho.com/
+https://registry.npm.taobao.org
+
+
+2.永久使用镜像命令：
+npm config set registry https://registry.npm.taobao.org
+临时使用镜像命令： npm --registry "http://npm.hacknodejs.com/" install underscore
+
+
+3.查看npm
+信息查看：npm info underscore
+镜像查看：
