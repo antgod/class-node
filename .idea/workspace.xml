@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3789f2af-d437-48a3-95eb-0350d73f176e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book/commonjs/commonjs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/commonjs/commonjs.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/hello.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/book/commonjs/模块机制.md" />
-      <change type="DELETED" beforePath="D:\work\web\2.javascript\7.modular\require\scripts\b.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/js/app.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/22.socketio/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/22.socketio/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/work2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/worker.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/前端向后端发送数据.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/页面.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbBookSelect/bxbBookSelect.styl" afterPath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbBookSelect/bxbBookSelect.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.js" afterPath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.styl" afterPath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.styl" />
@@ -20,30 +23,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbRefPriceList/bxbRefPriceList.styl" afterPath="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbRefPriceList/bxbRefPriceList.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/biz/config.js" afterPath="$PROJECT_DIR$/../baixiubao/biz/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/rt/edp-webserver-config.js" afterPath="$PROJECT_DIR$/../baixiubao/rt/edp-webserver-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/src/filter.js" afterPath="$PROJECT_DIR$/../baixiubao/widget/src/filter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/node.iml" afterPath="$PROJECT_DIR$/.idea/node.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/biz/package.json" afterPath="$PROJECT_DIR$/../baixiubao/biz/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/rt/package.json" afterPath="$PROJECT_DIR$/../baixiubao/rt/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/biz/src/common/preview/preview.js" afterPath="$PROJECT_DIR$/../baixiubao/biz/src/common/preview/preview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/require.html" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/require.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../baixiubao/widget/test/test.bxbPage1.html" afterPath="$PROJECT_DIR$/../baixiubao/widget/test/test.bxbPage1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\js\hide.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/js/hide.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\js\module.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/js/module.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\js\show.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/js/show.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\require\require1.html" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/app.html" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\require\scripts\a.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/add.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\requirejs.docx" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/require/requirejs.docx" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\sea-advanced.html" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea-advanced.html" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\sea.html" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea.html" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\sea\sea.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea/sea.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\drag-oop.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/drag-oop.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\drag.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/drag.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\main.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/main.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\resize.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/resize.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\scale.js" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/scale.js" />
-      <change type="MOVED" beforePath="D:\work\web\2.javascript\7.modular\webqq\webqq.html" afterPath="$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/webqq.html" />
+      <change type="MOVED" beforePath="D:\work\web\3.html\1.html5\worker\work.html" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/后端向前端发送数据.html" />
+      <change type="MOVED" beforePath="D:\work\web\3.html\1.html5\worker\work.js" afterPath="$PROJECT_DIR$/../web/3.html/1.html5/worker/work1.js" />
     </list>
     <ignored path="node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,7 +52,28 @@
     <favorites_list name="node" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/22.socketio/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5826087" vertical-offset="121" max-vertical-offset="720">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/22.socketio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="312">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -78,40 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../baixiubao/widget/README.md" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.editor.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/.gitignore" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/a.json" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderInfo/bxbOrderInfo.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/biz/config.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/rt/edp-webserver-config.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/biz/node_modules/@baidu/cybertron-rt/edp-webserver-config.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/biz/node_modules/@baidu/cybertron-widget/node_modules/@baidu/cybertron-rt/edp-webserver-config.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/node_modules/@baidu/cybertron-rt/edp-webserver-config.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbChoiceArgs/bxbChoiceArgs.editor.js" />
-        <option value="$PROJECT_DIR$/../baixiubao/widget/src/common.styl" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/let-const.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/build/bundle.js" />
-        <option value="$PROJECT_DIR$/../2015/框架/react/课件/1.代码初体验.html" />
-        <option value="$PROJECT_DIR$/../2015/框架/react/课件/7.生命周期.html" />
-        <option value="$PROJECT_DIR$/../2015/react/js/app.js" />
-        <option value="$PROJECT_DIR$/../2015/react/index.html" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/index.html" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/style.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/maxin.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/class.js" />
-        <option value="$PROJECT_DIR$/../2015/react/webpack.config.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/symbol.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/set.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/generator.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/proxy.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/webpack.config.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/export.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/unsupport/proxy.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/unsupport/generator.js" />
-        <option value="$PROJECT_DIR$/../2015/ecma6/js/module.js" />
-        <option value="$PROJECT_DIR$/../web/3.html/3.reg/reg-rule.html" />
         <option value="$PROJECT_DIR$/../web/3.html/3.reg/2.reg-exec.html" />
         <option value="$PROJECT_DIR$/../web/3.html/3.reg/4.reg-rule-all.html" />
         <option value="$PROJECT_DIR$/../web/3.html/3.reg/1.reg-function.html" />
@@ -129,13 +103,47 @@
         <option value="$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/util.js" />
         <option value="$PROJECT_DIR$/../web/2.javascript/7.modular/require/require.html" />
         <option value="$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/hello.js" />
+        <option value="$PROJECT_DIR$/../web/8.interview/面试/进攻重点.txt" />
+        <option value="$PROJECT_DIR$/../web/8.interview/面试/面试题.txt" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/1.HelloWorld.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/2.嵌套.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/1.第一个组件.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/2.嵌套.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/2.states.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/3.状态.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/4.参数.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/5.事件.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/5.事件2.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/6.指向.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/7.父类子类数据传递.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/7.交互.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/5.two way data flow.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/8.绑定.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/9.周期.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/10.周期更新.html" />
+        <option value="$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/11.混入.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/work.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/demo1.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/work1.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/demo2.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/前端向后端发送数据.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/work2.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/后端向前端发送数据.html" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/子线程1.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/子线程2.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/主线程.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程3.js" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/data.json" />
+        <option value="$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/页面.html" />
+        <option value="$PROJECT_DIR$/code/22.socketio/index.html" />
+        <option value="$PROJECT_DIR$/code/22.socketio/index.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
+    <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -212,6 +220,114 @@
               <option name="myItemId" value="node" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="3.html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.html5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="22.socketio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -253,36 +369,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\node\book\commonjs" />
-      <recent name="D:\work\node\book" />
-      <recent name="D:\work\web\2.javascript\7.modular\commonjs" />
-      <recent name="D:\work\web\3.html\3.reg" />
-      <recent name="D:\work\2015\ecma6\js" />
+      <recent name="D:\work\web\3.html\1.html5\worker" />
+      <recent name="D:\work\web\3.html\1.html5\worker\线程嵌套" />
+      <recent name="D:\work\baidu\框架\react\淘宝教程\我的" />
+      <recent name="D:\work\baidu\框架\react\淘宝教程\教程" />
+      <recent name="D:\work\baidu\框架\react\淘宝教程" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\baidu\框架\react\淘宝教程\我的" />
       <recent name="D:\work\web\2.javascript\7.modular\seajs" />
       <recent name="D:\work\web\2.javascript\7.modular\require" />
       <recent name="D:\work\web\3.html\3.reg\example" />
       <recent name="D:\work\2015\框架" />
-      <recent name="D:\work\2015\ecma6\js\unsupport" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.module.js">
-    <configuration default="false" name="test.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/code/0.jabase/2.异步编程">
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="a.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="a.js" working-dir="$PROJECT_DIR$/../zujianhua">
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test.js (2)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/../web/6.frame/lodash">
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration default="false" name="bundle.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="bundle.js" working-dir="$PROJECT_DIR$/../2015/ecma6/build">
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
@@ -292,6 +393,21 @@
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="1.series.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="1.series.js" working-dir="$PROJECT_DIR$/code/21.async">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2.waterfall.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="2.waterfall.js" working-dir="$PROJECT_DIR$/code/21.async">
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/code/22.socketio">
+      <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
@@ -337,19 +453,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.test.js (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.a.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.test.js (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.bundle.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.module.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bundle.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.module.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.1.series.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.2.waterfall.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.module.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.bundle.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.test.js (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.a.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.test.js (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.2.waterfall.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.1.series.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.module.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.bundle.js" />
       </list>
     </recent_temporary>
   </component>
@@ -379,18 +495,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25336322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32488823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34488449" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23968254" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22442244" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3920635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42222223" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -403,28 +519,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34488449" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23968254" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42222223" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962743" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25336322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22442244" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JsTestDriver Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -512,368 +606,361 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbOrderFixed/bxbOrderFixed.js">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/4.events 2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49146757" vertical-offset="0" max-vertical-offset="6048">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state vertical-scroll-proportion="-7.0574713" vertical-offset="490" max-vertical-offset="3264">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../baixiubao/widget/src/widgets/bxbBookSubmit/bxbBookSubmit.js">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/6.指向.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34223706" vertical-offset="2531" max-vertical-offset="4248">
-          <caret line="114" column="50" selection-start-line="114" selection-start-column="50" selection-end-line="114" selection-end-column="50" />
+        <state vertical-scroll-proportion="-7.848485" vertical-offset="581" max-vertical-offset="2856">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/1.basic/2.array/1.array_foreach.html">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/7.交互.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.050632913" vertical-offset="836" max-vertical-offset="1440">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state vertical-scroll-proportion="-8.424242" vertical-offset="1186" max-vertical-offset="1728">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shengtai/baixiubao/edp-webserver-config.js">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/5.two way data flow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="5784">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state vertical-scroll-proportion="1.4545455" vertical-offset="648" max-vertical-offset="1800">
+          <caret line="25" column="79" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/git/git.txt">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/5.事件2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35893154" vertical-offset="25" max-vertical-offset="840">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.72727275" vertical-offset="96" max-vertical-offset="2064">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shengtai/beautydirector/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/3.状态.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08013356" vertical-offset="792" max-vertical-offset="4560">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.6363637" vertical-offset="0" max-vertical-offset="1944">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../shengtai/dudumeijia/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/6.component lifecycle-updating.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="5136">
-          <caret line="70" column="36" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        <state vertical-scroll-proportion="-5.090909" vertical-offset="1440" max-vertical-offset="2256">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/4.填坑/2.1px/retina.less">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/9.周期.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="2304">
-          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        <state vertical-scroll-proportion="10.181818" vertical-offset="1032" max-vertical-offset="2016">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/4.填坑/2.1px/a.less">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/7.mixin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18568665" vertical-offset="0" max-vertical-offset="517">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state vertical-scroll-proportion="-5.818182" vertical-offset="960" max-vertical-offset="2112">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/4.填坑/2.1px/1px.txt">
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/教程/index-static.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.090909" vertical-offset="1584" max-vertical-offset="2376">
+          <caret line="73" column="58" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/11.混入.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38114753" vertical-offset="318" max-vertical-offset="2088">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/10.周期更新.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22140221" vertical-offset="0" max-vertical-offset="1944">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="7" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react/淘宝教程/我的/8.绑定.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6060605" vertical-offset="736" max-vertical-offset="1440">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react-es6-webpack/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40831757" vertical-offset="0" max-vertical-offset="529">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react-es6-webpack/out/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.91992885" vertical-offset="877" max-vertical-offset="1584">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../baidu/框架/react-es6-webpack/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8967972" vertical-offset="0" max-vertical-offset="696">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/work1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/work2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.083478265" vertical-offset="0" max-vertical-offset="575">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/后端向前端发送数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40831757" vertical-offset="0" max-vertical-offset="552">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/前端向后端发送数据.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5897921" vertical-offset="0" max-vertical-offset="696">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="192">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/线程1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="192">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.909091" vertical-offset="0" max-vertical-offset="240">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/线程嵌套/页面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3333333" vertical-offset="130" max-vertical-offset="816">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/worker/worker.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="575">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/5.默认样式/1.默认样式.txt">
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/database.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6476868" vertical-offset="1238" max-vertical-offset="1800">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.0888469" vertical-offset="792" max-vertical-offset="1608">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/4.填坑/6.滚动/scroll.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mobile/2.样式篇/4.填坑/4.babble/bubble.html">
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/localStorage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35424355" vertical-offset="168" max-vertical-offset="864">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state vertical-scroll-proportion="-4.3939395" vertical-offset="95" max-vertical-offset="912">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/3.dom-bom/3.event/高程/8.冒泡.html">
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/localStorage-search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31758034" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/4.oop/prototype.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/example-string.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7084871" vertical-offset="576" max-vertical-offset="1200">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/example-space.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31758034" vertical-offset="0" max-vertical-offset="529">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/example-consume.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="744">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2088">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/example-filter.html">
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/localStorage-input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="624">
+        <state vertical-scroll-proportion="-8.727273" vertical-offset="0" max-vertical-offset="792">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/storage-event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.2727275" vertical-offset="576" max-vertical-offset="1128">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/webstorage/storage-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.818182" vertical-offset="1224" max-vertical-offset="2280">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../web/3.html/1.html5/websocket/websocket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.636364" vertical-offset="72" max-vertical-offset="768">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/21.async/3.parallel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="744">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/21.async/1.series.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/21.async/2.waterfall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="600">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/ssh.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="744">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/22.socketio/node_modules/socket.io/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.915493" vertical-offset="1008" max-vertical-offset="9384">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/22.socketio/node_modules/socket.io/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061068702" vertical-offset="144" max-vertical-offset="2232">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/22.socketio/node_modules/express/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3636365" vertical-offset="0" max-vertical-offset="3648">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/1.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2504348" vertical-offset="0" max-vertical-offset="864">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/4.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="145" max-vertical-offset="1080">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/6.template.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/7.post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/example-formvalid.html">
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/connect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8784">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1032">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/form-valid.html">
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/cookieUtils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39922482" vertical-offset="10" max-vertical-offset="768">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="1128">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/example/string.html">
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/ejs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.757576" vertical-offset="95" max-vertical-offset="912">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="480">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/2.reg-exec.html">
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/static.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8032787" vertical-offset="208" max-vertical-offset="984">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/3.reg-rule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.727273" vertical-offset="576" max-vertical-offset="1800">
-          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/reg.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0" vertical-offset="360" max-vertical-offset="1440">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/1.reg-function.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3103448" vertical-offset="54" max-vertical-offset="1440">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/reg-str.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.727273" vertical-offset="0" max-vertical-offset="432">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/3.html/3.reg/4.reg-all.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4612546" vertical-offset="0" max-vertical-offset="1128">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea/sea.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20472">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/17.express/connect/3.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/22.socketio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="312">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/js/show.js">
+    <entry file="file://$PROJECT_DIR$/code/22.socketio/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="768">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/modjs/mod.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2999" max-vertical-offset="3936">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/webqq/webqq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48854962" vertical-offset="0" max-vertical-offset="720">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/module.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6363637" vertical-offset="144" max-vertical-offset="720">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/seajs/sea-advanced.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2727273" vertical-offset="78" max-vertical-offset="936">
-          <caret line="5" column="84" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3636365" vertical-offset="0" max-vertical-offset="432">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/js/app/sub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="336">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/js/lib/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="212040">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/require.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="49656">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/require.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="144" max-vertical-offset="552">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <marker date="1454913797703" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="576">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/require/scripts/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37565216" vertical-offset="0" max-vertical-offset="720">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../web/2.javascript/7.modular/commonjs/commonjs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="3480">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/commonjs/commonjs.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.6" vertical-offset="0" max-vertical-offset="3480">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/book/commonjs/模块机制.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17877094" vertical-offset="0" max-vertical-offset="2448">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.5826087" vertical-offset="121" max-vertical-offset="720">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
