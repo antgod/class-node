@@ -17,8 +17,7 @@ git add .   //提交所有改动到缓存区
 
 git remote rm origin                       //删除推送地址重新设置
 
-git remote add origin https://zhangsan:123456@github.com/zhufengnodejs/201504.git
-                                      https://github.com/594237406/node.git
+git remote add origin https://594237406:jdkn45263@github.com/594237406/senior.git
 
 
 8.add与commit合并:git commit -a -m ""
