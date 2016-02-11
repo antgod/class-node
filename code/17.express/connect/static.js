@@ -1,7 +1,6 @@
 var path = require('path');
 var mime = require('mime');
 var fs = require('fs');
-var cookieUtils=require("./cookieUtils");
 function serverStatic(options){
     options = options||{};
     options.root = path.resolve(options.root)+path.sep;
