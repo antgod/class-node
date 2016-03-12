@@ -1,0 +1,15 @@
+1.npm config ls
+
+设置全局安装路径
+
+设置代理
+
+2.提交
+
+npm adduser
+
+npm login
+
+npm publish
+
+npm config set registry "http://registry.npmjs.org/"
