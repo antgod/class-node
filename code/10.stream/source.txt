@@ -1,3 +1,17 @@
-abc1
-bbbbb2
-ccccccc3
+var fs = require('fs');
+var readStream = fs.createReadStream('/path/to/source');
+var writeStream = fs.createWriteStream('/path/to/dest');
+
+readStream.on('data', function(chunk) { // 当有数据流出时，写入数据
+    if (writeStream.write(chunk) === false) { // 如果没有写完，暂停读取流
+        readStream.pause();
+    }
+});
+
+writeStream.on('drain', function() { // 写完后，继续读取
+    readStream.resume();
+});
+
+readStream.on('end', function() { // 当没有数据时，关闭数据流
+    writeStream.end();
+});

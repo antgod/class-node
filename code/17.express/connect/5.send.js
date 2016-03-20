@@ -17,10 +17,15 @@ var path = require('path');
  * 数字
  */
 app.use(express.static(path.join(__dirname,'/')));
+
 app.use('/',function(req,res,next){
-    //res.send('<h1>你好</h1>');
-    ///res.send({name:"zfpx",age:8}+'<h1>你好</h1>');
-    // res.send("{name:zfpx}");
-    res.send(null);
+    console.log(1);
+    next();
+    console.log(4);
+});
+app.use('/',function(req,res,next){
+    console.log(2);
+    fs.createReadStream("./file.json").pipe(res);
+    console.log(3);
 });
 app.listen(8080);

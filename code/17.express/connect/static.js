@@ -20,7 +20,7 @@ function serverStatic(options){
             fs.createReadStream(file).pipe(res);
         }
         function send304(){
-            res.statusCode = 304
+            res.statusCode = 304;
             res.end('');
         }
     }

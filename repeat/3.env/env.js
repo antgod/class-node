@@ -12,3 +12,5 @@ require("optimist")
 
 console.log("webpack " + require("../package.json").version + "\n" +
     "Usage: https://webpack.github.io/docs/cli.html")
+
+
