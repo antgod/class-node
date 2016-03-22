@@ -26,3 +26,23 @@ git remote add origin https://594237406:jdkn45263@github.com/594237406/senior.gi
 
 10.对比代码 git diff
 
+11.删除远程分支
+git branch -r -d origin/branch-name
+
+不成功，发现只是删除的本地对该远程分支的track，正确的方法应该是这样：
+
+git push origin :branch-name
+
+冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
+
+12.推送到远程分支
+git push origin test  
+
+13.查看远程分支
+git branch -a 
+
+14.下载远程分支
+git checkout -b online origin/release/online
+
+
+
