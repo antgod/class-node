@@ -41,4 +41,4 @@ girl.on("18",function(){
     console.log('marry my son');
 });
 
-girl.emit("19");
+girl.emit("18");
