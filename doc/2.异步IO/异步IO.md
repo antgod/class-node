@@ -158,7 +158,7 @@
         
     - 请求对象
     
-        当我们调用异步IO，js调用内核执行IO操作时候，存在一个中间产物，叫做请求对象。
+        当我们调用异步IO，js调用内核执行IO操作时候，存在一个中间产物，叫做请求对象,以下流程以读取文件为例。
     
         流程:IO API调用-调用c++内建模块-通过libuv进行系统调用（判断平台）-调用uv_fs_open,创建FSReqWrap请求对象，参数，回调(oncomplete_sym属性)封装在了这个请求对象上。windows通过QueueUserWorkItem()方法将这个FSReqWrap对象推入线程池等待执行。
         
