@@ -84,12 +84,12 @@ var STATUS_CODES = exports.STATUS_CODES = {
     428 : 'Precondition Required',      // RFC 6585
     429 : 'Too Many Requests',          // RFC 6585
     431 : 'Request Header Fields Too Large',// RFC 6585
-    500 : 'Internal Server Error',
-    501 : 'Not Implemented',
-    502 : 'Bad Gateway',
-    503 : 'Service Unavailable',
-    504 : 'Gateway Time-out',
-    505 : 'HTTP Version Not Supported',
+    500 : 'Internal Server Error',                      //服务器内部错误
+    501 : 'Not Implemented',                            //服务器并未实现请求方法,如put请求员工信息
+    502 : 'Bad Gateway',                                //网关或代理服务器接收到远端服务器异常的响应
+    503 : 'Service Unavailable',                        //当后端服务器重启:如服务上线,服务不可用
+    504 : 'Gateway Time-out',                           //网关节点超时
+    505 : 'HTTP Version Not Supported',                 //服务器不支持请求报文头中的http版本
     506 : 'Variant Also Negotiates',    // RFC 2295
     507 : 'Insufficient Storage',       // RFC 4918
     509 : 'Bandwidth Limit Exceeded',
@@ -98,23 +98,22 @@ var STATUS_CODES = exports.STATUS_CODES = {
 };
 
 
-function ServerResponse(req) {
+function ServerResponse(req) {            //res对象函数
     OutgoingMessage.call(this);
 
-    if (req.method === 'HEAD') this._hasBody = false;
+    if (req.method === 'HEAD') this._hasBody = false;   //如果method为head,则没有请求体
 
-    this.sendDate = true;
+    this.sendDate = true;                               //发送事件
 
-    if (req.httpVersionMajor < 1 || req.httpVersionMinor < 1) {
+    if (req.httpVersionMajor < 1 || req.httpVersionMinor < 1) {     //如果http版本小于1
         this.useChunkedEncodingByDefault = chunkExpression.test(req.headers.te);
         this.shouldKeepAlive = false;
     }
 }
-util.inherits(ServerResponse, OutgoingMessage);
-
-ServerResponse.prototype._finish = function() {
-    DTRACE_HTTP_SERVER_RESPONSE(this.connection);
-    COUNTER_HTTP_SERVER_RESPONSE();
+util.inherits(ServerResponse, OutgoingMessage); //ServerResponse继承OutgoingMessage对象,OutgoingMessage继承自Stream对象
+ServerResponse.prototype._finish = function() {          //res对象调用end函数,执行finish函数
+    DTRACE_HTTP_SERVER_RESPONSE(this.connection);        //追踪Server Response对象
+    COUNTER_HTTP_SERVER_RESPONSE();                      //响应计数器++
     OutgoingMessage.prototype._finish.call(this);
 };
 
@@ -122,8 +121,8 @@ ServerResponse.prototype._finish = function() {
 
 exports.ServerResponse = ServerResponse;
 
-ServerResponse.prototype.statusCode = 200;
-ServerResponse.prototype.statusMessage = undefined;
+ServerResponse.prototype.statusCode = 200;               //默认状态码200
+ServerResponse.prototype.statusMessage = undefined;      //默认状态
 
 function onServerResponseClose() {
     // EventEmitter.emit makes a copy of the 'close' listeners array before
