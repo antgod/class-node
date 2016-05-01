@@ -1,6 +1,6 @@
-<script src="/socket.io/socket.io.js"></script>
+<script src="../../node_modules/socket.io/node_modules/socket.io-client/socket.io.js"></script>
 <script>
-    var socket = io('http://localhost');
+    var socket = io('http://localhost:3002');
     socket.on('news', function (data) {
         console.log(data);
         socket.emit('my other event', { my: 'data' });
