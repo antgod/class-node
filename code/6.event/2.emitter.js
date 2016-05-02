@@ -48,11 +48,11 @@ me.emit("toSchool",28);
 
 /*
     addListener                     增加监听
-    on                                增加监听
-    once
-    removeListener
-    removeAllListeners(event)
-    emit
+    on                              增加监听
+    once                            只增加一次
+    removeListener                  移除监听
+    removeAllListeners(event)       移除所有监听
+    emit                            触发监听
     linteners                       查看有多少监听
  */
 

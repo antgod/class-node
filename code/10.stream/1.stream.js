@@ -10,20 +10,20 @@
 
 var fs=require("fs");
 
-//var rs = fs.createReadStream("./source.txt",{highWaterMark:65*1024});        //流对象
-var rs = fs.createReadStream("./source.txt",{highWaterMark:1*1024});        //流对象
+//var rs = fs.createReadStream("./source.txt",{highWaterMark:65*1024});         //流对象
+var rs = fs.createReadStream("./source.txt",{highWaterMark:1*1024});            //流对象
 
-//rs.on("open",function(){
-//   console.log("文件打开了");
-//});
-//
-//rs.on("data",function(data){
-//    console.log("读到了数据",data.toString());
-//});
-//
-//rs.on("end",function(){
-//    console.log("文件关闭");
-//});
+rs.on("open",function(){
+   console.log("文件打开了");
+});
+
+rs.on("data",function(data){
+    console.log("读到了数据",data.toString());
+});
+
+rs.on("end",function(){
+    console.log("文件关闭");
+});
 
 //读取方式有两种，以上代码流动模式，以下代码：非流动模式
 
